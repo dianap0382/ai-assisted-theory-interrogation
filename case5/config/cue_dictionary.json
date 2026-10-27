@@ -1,0 +1,31 @@
+{
+  "procedural": [
+    "skip",
+    "bypass",
+    "fast[- ]track",
+    "shortcut",
+    "outside the process",
+    "without committee",
+    "informal",
+    "not official",
+    "ad hoc"
+  ],
+  "semantic": [
+    "frame(d)? as",
+    "treat(ed)? as",
+    "position(ed)? as",
+    "define(d)? as",
+    "call(ed)? it",
+    "we see it as",
+    "for us it means"
+  ],
+  "temporal": [
+    "earlier",
+    "later",
+    "before approval",
+    "in parallel",
+    "at the same time",
+    "simultaneously",
+    "while"
+  ]
+}
