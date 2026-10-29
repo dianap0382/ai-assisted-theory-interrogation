@@ -1,0 +1,20 @@
+{
+  "saved": {
+    "procedural": true,
+    "semantic": false,
+    "temporal": false
+  },
+  "recomputed": {
+    "procedural": true,
+    "semantic": false,
+    "temporal": false
+  },
+  "triggered_dictionary_terms": {
+    "procedural": [
+      "fast[- ]track"
+    ],
+    "semantic": [],
+    "temporal": []
+  },
+  "interpretation": "A triggered dictionary term screens for possible departure; does not prove implementation or mismatch."
+}

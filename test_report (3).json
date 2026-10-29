@@ -1,0 +1,11 @@
+{
+  "candidate_status": "descriptively_qualified_within_article",
+  "screened_cvc_rows": 237,
+  "od_cluster_rows": 40,
+  "source_page_context_windows": 113,
+  "method": "TF-IDF (unigram+bigram) / regex dictionary / truncated saved context windows",
+  "semantic_sentence_embeddings": "COMPLETED: 678 finite similarity scores across 2 embedding models, 113 snippets and 3 anchors; does not establish automated mapping robustness",
+  "not_the_same_as": "TF-IDF contrast is not an embedding comparison; context-window substring check is not a re-extraction or re-clustering",
+  "qualified_threshold": "post-discovery descriptive criterion: two OD mechanisms in same reported practice with traceable passage evidence",
+  "signal_survives": "descriptive interpretation under conservative OD recoding; corpus-level mapping robustness not established"
+}

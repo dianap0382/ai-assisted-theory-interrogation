@@ -1,0 +1,18 @@
+{
+  "input_archive": "Everything(2).zip",
+  "input_member": "Outputs/Strand 2_OP Outputs-20261022T090148Z-1-001/Strand 2_OP Outputs/m4_master_task4b_multilingual_quadrants.csv",
+  "p8_filter": "performative_practice_id == P8",
+  "recurrence_flags": [
+    "OIR_lexical",
+    "OIR_semantic",
+    "PIR",
+    "temporal_signal"
+  ],
+  "row_keys": [
+    "interview_id",
+    "segment_id"
+  ],
+  "model": "saved archival scores; see updated guideline for previously reported model families",
+  "python": "3.13.5",
+  "pandas": "2.2.3"
+}

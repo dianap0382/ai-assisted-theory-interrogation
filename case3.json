@@ -1,0 +1,24 @@
+{
+  "anchors": {
+    "integration": "external startup partners integrated into internal value creation and corporate value chain activities",
+    "supplier_program": "startup supplier program runs pilots with business units and then purchasing procurement supplier status",
+    "knowledge": "external partners knowledge sharing innovation coordination with internal business units"
+  },
+  "dictionary_patterns": {
+    "broad": "partner|startup|supplier|integrat|collaborat|corporat|value.chain|external|procure",
+    "narrow": "(startup.{0,35}supplier|supplier.{0,35}startup|external.{0,35}partner|partner.{0,45}(integrat|internal|value)|integrat.{0,45}(partner|supplier|startup)|purchas.{0,35}startup|startup.{0,35}purchas)",
+    "procurement": "procure|purchas|supplier|onboard|pilot|business.unit"
+  },
+  "tfidf": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "stop_words": "english"
+  },
+  "screening_source": "saved CVC context extraction; source row index is within copied 237-row screening CSV",
+  "od_candidates": [
+    15,
+    16
+  ]
+}

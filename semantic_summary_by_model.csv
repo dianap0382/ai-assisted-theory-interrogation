@@ -1,0 +1,3 @@
+model,n,compensation_preferred,compensation_mean,strategic_mean,compensation_preferred_share
+sentence-transformers/all-MiniLM-L6-v2,500,331,0.4173336663246155,0.3753288878053427,0.662
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,500,363,0.4670454111024737,0.39121368537098167,0.726

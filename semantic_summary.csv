@@ -1,0 +1,7 @@
+model,anchor,count,mean,median,max
+sentence-transformers/all-MiniLM-L6-v2,cross_boundary_work,113,0.41661999183418474,0.4130079746246338,0.6243897676467896
+sentence-transformers/all-MiniLM-L6-v2,integration_and_procurement,113,0.55281547081154,0.5647351741790771,0.7825683951377869
+sentence-transformers/all-MiniLM-L6-v2,program_reorganization,113,0.5092886085663222,0.5179494619369507,0.6893264055252075
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,cross_boundary_work,113,0.46611319205402274,0.4631595611572265,0.7043938636779785
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,integration_and_procurement,113,0.5627821970038709,0.5835518836975098,0.7490434050559998
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,program_reorganization,113,0.5409926537391359,0.543580949306488,0.7997733354568481

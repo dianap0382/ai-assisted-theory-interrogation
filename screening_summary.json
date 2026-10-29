@@ -1,0 +1,23 @@
+{
+  "master_rows": 2237,
+  "p7_rows": 70,
+  "focal": {
+    "tfidf_similarity": 0.0112575513794623,
+    "embedding_similarity": 0.44752973,
+    "OIR_L": false,
+    "OIR_S": false,
+    "PIR": true,
+    "TI_L": false,
+    "procedural": true,
+    "semantic": false,
+    "temporal": false
+  },
+  "p7_flag_totals": {
+    "OIR_lexical": 9,
+    "OIR_semantic": 5,
+    "PIR": 4,
+    "TI_lexical": 0
+  },
+  "qualified_rule": "screening-only: saved PIR=True, OIR-L=False and OIR-S=False; substantive confirmation requires evidence of an implemented practice and an actual mismatch with the ostensive baseline",
+  "proposed_outcome": "Not a demonstrated implemented practice. The passage proposes or considers a fast-track route while acknowledging it is still under development. Stop short of persistent non-fit; classify as a candidate dissolved at Step 2 for the current claim."
+}

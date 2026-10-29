@@ -1,0 +1,16 @@
+mapping_id,OD_cluster,OD_category,CVC_candidate_cluster,role,qualification,CVC_row_ids
+M1,0,Incentives,11,candidate-only,requires one-to-one passage-level comparison,3441;3442;4081;5403;5812;6032;6988;6989;6990;7113;7361;7475
+M1,0,Incentives,4,candidate-only,requires one-to-one passage-level comparison,1339;1361;1362;1385;1966;2722;2727;16794;16795
+M1,0,Incentives,1,candidate-only,requires one-to-one passage-level comparison,4784;4785;4786;4796;4814;4815;4816;4817;7353
+M1,0,Incentives,10,candidate-only,requires one-to-one passage-level comparison,14575;14576;14577;14588;14593;14594;14650;14652;14687
+M1,0,Incentives,12,candidate-only,requires one-to-one passage-level comparison,537;576;642;1642;1643;1653;1654
+M1,0,Incentives,79,candidate-only,requires one-to-one passage-level comparison,9915;10942;10943;10944;10945;14822;14823
+M1,0,Incentives,167,candidate-only,requires one-to-one passage-level comparison,5818;5819;6053;7938;12216;12624
+M1,0,Incentives,172,candidate-only,requires one-to-one passage-level comparison,6515;6520;6521;6522;6523
+M1,0,Incentives,41,candidate-only,requires one-to-one passage-level comparison,9681;9682;9683;9684;9685
+M1,0,Incentives,39,candidate-only,requires one-to-one passage-level comparison,15183;15184;15202;15203
+M1,0,Incentives,6,candidate-only,requires one-to-one passage-level comparison,85;87;143;194
+M1,0,Incentives,62,candidate-only,requires one-to-one passage-level comparison,16405;16418;16455;16456
+M1,0,Incentives,40,candidate-only,requires one-to-one passage-level comparison,4013;5306;5308
+M1,0,Incentives,687,candidate-only,requires one-to-one passage-level comparison,6213;6214;10562
+M1,0,Incentives,173,candidate-only,requires one-to-one passage-level comparison,5118;7854;8346

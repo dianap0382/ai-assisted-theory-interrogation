@@ -1,0 +1,31 @@
+{
+  "source_archive": "Everything(2).zip",
+  "source_tables": {
+    "cvc": "Outputs/code outputs-20261022T090124Z-1-001/code outputs/clustering_outlier_filtered_practices(0.15,3).csv",
+    "od": "Outputs/Code outputs-20261022T090135Z-1-001/Code outputs/context_based_cluster_summary_OD.csv",
+    "cvc_summary": "Outputs/code outputs-20261022T090124Z-1-001/code outputs/context_based_cluster_summary.csv"
+  },
+  "od_candidates": [
+    0,
+    1,
+    3,
+    11
+  ],
+  "anchors": {
+    "incentive_preservation": "design compensation and performance incentives such as milestone bonuses equity and variable pay for corporate venture managers and entrepreneurs",
+    "unrelated_incentives": "incentives to enter corporate collaboration and strategic investment opportunities without employee pay"
+  },
+  "dictionary_patterns": {
+    "broad": "incentiv|compensat|bonus|reward|carried.interest|stock.option|performance.pay|profit.shar|equity.based",
+    "narrow_compensation": "compensat|salary|bonus|carried.interest|stock.option|variable.pay|milestone.bonus|pay.for.perform",
+    "manager_and_pay": "(manager|entrepreneur|employee|venture team).{0,120}(bonus|compensat|incentiv|reward|salary|equity)|(bonus|compensat|incentiv|reward|salary|equity).{0,120}(manager|entrepreneur|employee|venture team)"
+  },
+  "tfidf": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "stop_words": "english"
+  },
+  "original_pipeline": "DBSCAN cosine epsilon 0.15 min_samples 3 from updated guide; NOT rerun here"
+}

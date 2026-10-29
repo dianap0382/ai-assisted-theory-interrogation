@@ -1,0 +1,33 @@
+{
+  "criterion_status": "explicit operational decision rule, documented after initial candidate identification; NOT preregistered, no population-wide statistical significance claimed",
+  "criterion": "A within-practice candidate qualifies descriptively if two different OD subcategories occur in a connected reported (not recommendation/survey instrument) workflow within an original source passage; each assignment traceable to evidence IDs. Higher-confidence corroboration would require another independent article and stability under semantic mapping.",
+  "same_workflow_page_9": {
+    "evidence_ids": [
+      "K2",
+      "K3"
+    ],
+    "liberal_categories": [
+      "Configuration: activity systems",
+      "Control: Control Systems"
+    ],
+    "liberal_n": 2,
+    "liberal_rule_pass": true,
+    "conservative_drop_disputed_reorganization": [
+      "Configuration: activity systems",
+      "Control: Control Systems"
+    ],
+    "conservative_n": 2,
+    "conservative_rule_pass": true
+  },
+  "cross_article_replication": "NOT ESTABLISHED",
+  "automatic_cvc_to_od_mapping_robustness": "NOT ESTABLISHED",
+  "semantic_embedding_robustness": "COMPLETED: two embedding models yielded 678 retrieval scores (113 original snippets x 3 conceptual anchor sentences x 2 models); see semantic_summary.csv and semantic_pilot_purchase_snippets.csv. This is retrieval-level sensitivity, not automatic CVC-to-OD remapping.",
+  "overall_decision": "DESCRIPTIVELY QUALIFIED within one article with two mechanisms; semantic anchor retrieval corroborates topical relevance, but recurring cross-corpus and automated classification robustness NOT ESTABLISHED.",
+  "limitations": [
+    "rule selected after exploratory screening; not preregistered",
+    "two mechanisms coded by analyst, not original classifier reestimated",
+    "conservative exclusion of reorganization retains Activity Systems and Control Systems",
+    "no independent article repetition verified",
+    "Semantic comparison based on fixed manually authored anchors and overlapping source snippets; no pre-specified statistical threshold and no original cross-corpus clustering rerun."
+  ]
+}

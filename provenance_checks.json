@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "lexical_oir_matches_absolute": 2237,
+    "pir_matches_improv": 2237,
+    "pir_matches_any_signal": 2237,
+    "ti_matches_oir_and_pir": 2237,
+    "ti_matches_tension_abs": 2237,
+    "procedural_cue_recomputed_matches_saved": 2237,
+    "semantic_cue_recomputed_matches_saved": 2213,
+    "temporal_cue_recomputed_matches_saved": 2237,
+    "cue_any_recomputed_matches_PIR": 2217,
+    "total_rows": 2237,
+    "global_80pct_lex_match": 2237,
+    "global_80pct_sem_match": 2237
+  },
+  "thresholds": {
+    "0.75": {
+      "lexical": 0.0559349533720465,
+      "semantic": 0.4673494
+    },
+    "0.8": {
+      "lexical": 0.06274130942092722,
+      "semantic": 0.48879779600000006
+    },
+    "0.85": {
+      "lexical": 0.0713395493196707,
+      "semantic": 0.5168941
+    },
+    "0.9": {
+      "lexical": 0.0847876487478109,
+      "semantic": 0.543577584
+    }
+  },
+  "source_R": [
+    "Codes/Milestone3 (1).R",
+    "Codes/Milestone4 (1).R",
+    "Codes/Milestone5.R"
+  ],
+  "interpretation": "An equality count equals total_rows only when identical; cues match could differ because initial Milestone 3 cues ran only on filtered candidates and later tables can merge original flags.",
+  "audit_status": "historical_pre_semantic_config_correction",
+  "caution": "Counts of 2213/2237 semantic and 2217/2237 any-cue matches come from the old empty-semantic-cue package audit. The full Milestone 3 semantic list is now restored. the researcher reports all saved flags match with it; this package does not contain all 2237 original segment texts, so a fresh independent whole-corpus verification has not been run."
+}

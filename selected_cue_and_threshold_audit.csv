@@ -1,0 +1,7 @@
+source_row_id,interview_id,segment_id,role,saved_oir_l,saved_oir_s,saved_pir,saved_ti_l,lexical_score,semantic_score,procedural_cue_terms,procedural_recomputed,semantic_cue_terms,semantic_recomputed,temporal_cue_terms,temporal_recomputed,lexical_pass_0.75,semantic_pass_0.75,lexical_pass_0.8,semantic_pass_0.8,lexical_pass_0.85,semantic_pass_0.85,lexical_pass_0.9,semantic_pass_0.9
+1543,participant_55559,15,Primary,True,True,True,True,0.0778901007746852,0.69107056,,False,,False,while,True,True,True,True,True,True,True,False,True
+557,participant_93328,8,4b lexical-semantic contrast,True,False,True,True,0.0858020700300198,0.27744925,,False,,False,at the same time,True,True,False,True,False,True,False,True,False
+600,participant_93328,558,Recurrence,True,True,True,True,0.109566476891764,0.5836238,,False,,False,later,True,True,True,True,True,True,True,True,True
+270,participant_66627,480,Recurrence screen,True,True,True,True,0.0796343969248676,0.5012742,,False,,False,later,True,True,True,True,True,True,False,False,False
+1245,participant_81347,145,Recurrence screen,True,True,True,True,0.0745176353503536,0.59621036,,False,,False,later,True,True,True,True,True,True,True,False,True
+459,participant_61652,509,Case 5 contrast,False,False,True,False,0.0112575513794623,0.44752973,fast[- ]track,True,,False,,False,False,False,False,False,False,False,False,False

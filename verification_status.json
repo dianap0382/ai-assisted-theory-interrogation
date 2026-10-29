@@ -1,0 +1,10 @@
+{
+  "all_rows_referenced_to_pdf": 30,
+  "page_matching": {
+    "strong": 7,
+    "possible": 18,
+    "low": 5
+  },
+  "manual_page_verified_count": 0,
+  "interpretation": "Candidate PDF page locations are not certified quotations; verify manually prior to citation."
+}

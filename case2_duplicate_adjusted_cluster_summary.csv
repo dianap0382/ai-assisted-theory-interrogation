@@ -1,0 +1,9 @@
+side,cluster_id,saved_rows,unique_pdf_hashes,unique_extractions_within_cluster,excluded_weak_or_offtopic,remaining_unique_candidate_extractions
+CVC,347,3,2,3,0,3
+CVC,564,3,2,2,0,2
+CVC,580,3,2,2,1,1
+CVC,673,3,2,3,0,3
+OD,18,5,4,4,3,2
+OD,82,4,4,4,2,2
+OD,92,6,1,6,0,6
+OD,116,3,2,2,0,2

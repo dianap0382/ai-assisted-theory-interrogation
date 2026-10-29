@@ -1,0 +1,4 @@
+dictionary,matching_extraction_rows,source_pdfs,non_noise_clusters,proves_preservation
+broad,500,76,61,False
+narrow_compensation,190,41,33,False
+manager_and_pay,127,40,21,False

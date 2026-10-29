@@ -1,0 +1,17 @@
+case: 2
+comparison: a
+signal: candidate_decomposition
+cvc_clusters: [347, 564, 580, 673]
+od_clusters: [18, 82, 92, 116]
+original_model: sentence-transformers/all-MiniLM-L6-v2
+original_dbscan:
+  eps: 0.15
+  min_samples: 3
+  metric: cosine
+sensitivity:
+  tfidf_max_features: 10000
+  alternative_embedder: sentence-transformers/paraphrase-MiniLM-L3-v2
+  dictionary:
+    vertical: ['senior management', 'top management', 'corporate board', 'headquarters', 'head office', 'parent executives', 'vertical autonomy', 'parent company approval']
+    horizontal: ['business unit', 'business units', 'other divisions', 'horizontal autonomy', 'BU approval', 'interdepartmental', 'internal units']
+    decision_rights: ['decision rights', 'investment decision', 'investment decisions', 'investment criteria', 'decision authority', 'investment approval', 'exit decision', 'termination of', 'trade sale', 'IPO', 'funding discretion']

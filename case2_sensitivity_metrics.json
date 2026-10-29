@@ -1,0 +1,8 @@
+{
+  "candidate_rows": 30,
+  "tfidf_same_cluster": 24,
+  "original_embedding_same_cluster": 24,
+  "lexical_semantic_changed_nearest_neighbor": 9,
+  "alternative_embedding_same_cluster": 25,
+  "kwic_records": 264
+}

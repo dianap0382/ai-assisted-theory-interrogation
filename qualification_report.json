@@ -1,0 +1,22 @@
+{
+  "step1": "CANDIDATE / NOT FORMALLY QUALIFIED",
+  "step2": "SOURCE PASSAGES RETRIEVED; HUMAN PRACTICE-LEVEL CODING REQUIRED",
+  "step3": "LEXICAL + TWO SENTENCE-EMBEDDING RETRIEVAL COMPARISONS COMPLETE; CLUSTER PERSISTENCE NOT ESTABLISHED",
+  "preservation_definition": "Evidence of a corresponding incentive mechanism in CVC and OD categories with the same pay/behavior linkage, not a generic mention of incentives",
+  "qualification_rule": "A source passage explicitly specifies the incentive mechanism, target actors and behavioral objective; OD cluster 0 describes a corresponding mechanism, and independent coding finds no material transformation. At least two independent publications required for a recurring preservation claim. No universal numeric similarity threshold is justified by these data.",
+  "qualification_passed": false,
+  "reason": "Saved clusters aggregate contexts and source text requires case-specific independent mechanism coding; lexical similarity does not establish theoretical equivalence",
+  "candidate_cvc_rows": 500,
+  "candidate_source_pdfs": 76,
+  "pdf_page_evidence_hits": 291,
+  "pdfs_opened": 22,
+  "semantic_test": {
+    "rows_per_model": 500,
+    "models": [
+      "sentence-transformers/all-MiniLM-L6-v2",
+      "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    ],
+    "agreement_rate": 0.804,
+    "scope": "semantic preference of saved candidate contexts for compensation versus generic strategic-incentive anchors; not independent recomputation of clustering or OD one-to-one coding"
+  }
+}

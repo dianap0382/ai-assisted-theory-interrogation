@@ -1,0 +1,2 @@
+interview_id,segment_id,performative_practice_id,tfidf_similarity,embedding_similarity,OIR_lexical,OIR_semantic,procedural_signal,semantic_signal,temporal_signal,PIR,TI_lexical,sim_quantile
+participant_61652,509,P7,0.0112575513794623,0.44752973,False,False,True,False,False,True,False,2

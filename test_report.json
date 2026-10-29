@@ -1,0 +1,26 @@
+{
+  "stage": "non_neural_test_completed",
+  "n_candidate_rows": 30,
+  "n_kwic": 264,
+  "saved_cvc_clusters": [
+    347,
+    564,
+    580,
+    673
+  ],
+  "saved_od_clusters": [
+    18,
+    82,
+    92,
+    116
+  ],
+  "same_cluster_nearest_tfidf_fraction": 0.8,
+  "tfidf_scope": "30 saved case-2 candidate rows, not a rerun on the original 163-paper corpus",
+  "model_check": "not_executed",
+  "software": {
+    "python": "3.13.5",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scikit_learn": "1.8.0"
+  }
+}

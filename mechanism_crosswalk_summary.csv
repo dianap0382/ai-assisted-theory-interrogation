@@ -1,0 +1,4 @@
+same_practice_id,subprocess,evidence_ids,od_mechanisms,mechanism_count,evidence_basis,adjudication
+KURP_STARTUP_SUPPLIER_PROGRAM,pilot to purchasing decision,K2;K3;K4,Configuration: Reorganization;Configuration: activity systems;Control: Control Systems,3,Same connected process on PDF page 9,candidate recombination; no verified mapping frequency threshold
+KURP_STARTUP_SUPPLIER_PROGRAM,post-pilot sourcing,K5;K6;K7,Configuration: activity systems;Control: Control Systems;Coordination: Shared Understanding,3,"Adjacent mechanisms pp.15-17, related same program, not same sentence",candidate recombination; no verified mapping frequency threshold
+KURP_STARTUP_SUPPLIER_PROGRAM,integration of internal initiatives,K8;K9;K10,Configuration: Reorganization;Configuration: activity systems;Control: Control Systems,3,"Same program pp.19, some conditional / recommendation",candidate recombination; no verified mapping frequency threshold

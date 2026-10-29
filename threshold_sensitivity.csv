@@ -1,0 +1,5 @@
+global_quantile,lexical_cutoff,semantic_cutoff,focal_lexical_pass,focal_semantic_pass,focal_pir_saved,focal_tension_with_alt_lexical_cutoff
+0.75,0.0559349533720465,0.4673494,False,False,True,False
+0.8,0.06274130942092722,0.48879779600000006,False,False,True,False
+0.85,0.0713395493196707,0.5168941,False,False,True,False
+0.9,0.0847876487478109,0.543577584,False,False,True,False

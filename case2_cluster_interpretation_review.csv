@@ -1,0 +1,9 @@
+side,cluster,proposed_meaning,assessment,n_source_rows,n_distinct_PDF_names
+CVC,347,Parent-company oversight / autonomy-performance relationship,Supported but overlaps OD 18/116,3,2
+CVC,564,Vertical and horizontal investment-decision authority,Supported; near-duplicate sources,3,3
+CVC,580,"Investment focus, exit and portfolio discretion",Partly supported; one row is low-confidence,3,3
+CVC,673,Autonomy and outcomes / structural autonomy,Not a clearly distinct practice from CVC 347/564,3,2
+OD,18,Control systems and oversight,Mixed evidence: some rows measure constructs rather than autonomy,5,5
+OD,82,Centralization / approval of venture selection,Supported by Germany paper; others need careful relevance review,4,4
+OD,92,Oversight / strategic objectives,Mostly strategic objective language; link to autonomy weak,6,1
+OD,116,Oversight / vertical-horizontal autonomy,Strong overlap with CVC 564; identical wording in same papers,3,3

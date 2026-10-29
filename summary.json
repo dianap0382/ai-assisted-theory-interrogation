@@ -1,0 +1,19 @@
+{
+  "source_table": "Outputs/Strand 2_OP Outputs-20261022T090148Z-1-001/Strand 2_OP Outputs/m4_master_task4b_multilingual_quadrants.csv",
+  "source_rows_all": 2237,
+  "p8_rows": 490,
+  "p8_ti_lexical_count": 6,
+  "p8_all_four_and_temporal": 4,
+  "p8_all_four_and_temporal_ids": [
+    "interview_21/480",
+    "interview_37/558",
+    "interview_86/145",
+    "interview_108/15"
+  ],
+  "p8_total_unique_interviews": 90,
+  "cutoffs_reported_in_guideline": {
+    "oir_l_global": 0.06274,
+    "oir_s_global_approx": 0.4888
+  },
+  "note": "Saved flags taken from archived CSV; cutoffs are documentation, not newly estimated values."
+}
