@@ -1,6 +1,6 @@
 {
-  "input_archive": "Everything(2).zip",
-  "input_member": "Outputs/Strand 2_OP Outputs-20261022T090148Z-1-001/Strand 2_OP Outputs/m4_master_task4b_multilingual_quadrants.csv",
+  "input_archive": "restricted original corpus (not distributed)",
+  "input_member": "saved segment-level indicators",
   "p8_filter": "performative_practice_id == P8",
   "recurrence_flags": [
     "OIR_lexical",

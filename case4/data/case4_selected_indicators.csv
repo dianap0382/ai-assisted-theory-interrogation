@@ -1,7 +1,7 @@
 interview_id,segment_id,performative_practice_id,sim_cosine,sim_quantile,alignment_label,procedural_signal,semantic_signal,temporal_signal,ostensive_invocation_abs,tension_abs,tfidf_similarity,OIR_lexical,PIR,TI_lexical,embedding_similarity,OIR_semantic,lexical_semantic_quadrant
-participant_55559,15,P8,0.0778901007746852,5,conforming,False,False,True,True,True,0.0778901007746852,True,True,True,0.69107056,True,high_lexical_high_semantic
-participant_93328,8,P8,0.0858020700300198,5,conforming,False,False,True,True,True,0.0858020700300198,True,True,True,0.27744925,False,high_lexical_low_semantic
-participant_93328,558,P8,0.109566476891764,5,conforming,False,False,True,True,True,0.109566476891764,True,True,True,0.5836238,True,high_lexical_high_semantic
-participant_66627,480,P8,0.0796343969248676,5,conforming,False,False,True,True,True,0.0796343969248676,True,True,True,0.5012742,True,high_lexical_high_semantic
-participant_81347,145,P8,0.0745176353503536,5,conforming,False,False,True,True,True,0.0745176353503536,True,True,True,0.59621036,True,high_lexical_high_semantic
-participant_61652,509,P7,0.0112575513794623,2,deviating,True,False,False,False,False,0.0112575513794623,False,True,False,0.44752973,False,low_lexical_low_semantic
+unit_040,15,P8,0.0778901007746852,5,conforming,False,False,True,True,True,0.0778901007746852,True,True,True,0.69107056,True,high_lexical_high_semantic
+unit_086,8,P8,0.0858020700300198,5,conforming,False,False,True,True,True,0.0858020700300198,True,True,True,0.27744925,False,high_lexical_low_semantic
+unit_086,558,P8,0.109566476891764,5,conforming,False,False,True,True,True,0.109566476891764,True,True,True,0.5836238,True,high_lexical_high_semantic
+unit_052,480,P8,0.0796343969248676,5,conforming,False,False,True,True,True,0.0796343969248676,True,True,True,0.5012742,True,high_lexical_high_semantic
+unit_072,145,P8,0.0745176353503536,5,conforming,False,False,True,True,True,0.0745176353503536,True,True,True,0.59621036,True,high_lexical_high_semantic
+unit_046,509,P7,0.0112575513794623,2,deviating,True,False,False,False,False,0.0112575513794623,False,True,False,0.44752973,False,low_lexical_low_semantic

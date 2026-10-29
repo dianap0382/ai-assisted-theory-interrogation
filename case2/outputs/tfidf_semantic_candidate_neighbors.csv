@@ -1,31 +1,31 @@
 row_key,side,cluster_id,source_pdf,lexical_nearest_row_key,lexical_cosine_similarity,lexical_nearest_same_saved_cluster,semantic_nearest_row_key,semantic_cosine_similarity,semantic_nearest_same_saved_cluster
-CVC:673:3729,CVC,673,J Small Business Manag - 2012 - Johnson - The Role of Structural and Planning Autonomy in the Performance of Internal.pdf,CVC:673:9433,0.164299,True,CVC:673:9433,0.786491,True
-CVC:347:7806,CVC,347,1-s2.0-S0883902621000471-main.pdf,CVC:347:10908,0.184912,True,CVC:347:10909,0.578359,True
-CVC:673:8049,CVC,673,Strategic Entrepreneurship - 2009 - Hill - Transferability of the venture capital model to the corporate context .pdf,CVC:673:9433,0.866178,True,CVC:673:9433,0.957166,True
-CVC:673:9433,CVC,673,Strategic Entrepreneurship - 2009 - Hill - Transferability of the venture capital model to the corporate context .pdf,CVC:673:8049,0.866178,True,CVC:673:8049,0.957166,True
-CVC:347:10908,CVC,347,s11301-023-00372-2.pdf,CVC:347:10909,0.921376,True,CVC:347:10909,0.915043,True
-CVC:347:10909,CVC,347,s11301-023-00372-2.pdf,CVC:347:10908,0.921376,True,CVC:347:10908,0.915043,True
-CVC:580:11260,CVC,580,R D Management - 2005 - Ernst - Corporate venture capital as a strategy for external innovation  an exploratory empirical (1).pdf,CVC:580:11261,1.0,True,CVC:580:11261,1.0,True
-CVC:580:11261,CVC,580,R D Management - 2005 - Ernst - Corporate venture capital as a strategy for external innovation  an exploratory empirical.pdf,CVC:580:11260,1.0,True,CVC:580:11260,1.0,True
-CVC:580:11762,CVC,580,J of Product Innov Manag - 2013 - Wadhwa - Exploration and Resource Commitments in Unequal Partnerships  An Examination of.pdf,OD:18:945,0.038708,False,CVC:580:11260,0.534488,True
-CVC:564:13684,CVC,564,hill-birkinshaw-2012-ambidexterity-and-survival-in-corporate-venture-units (1).pdf,CVC:564:13685,1.0,True,CVC:564:13685,1.0,True
-CVC:564:13685,CVC,564,hill-birkinshaw-2012-ambidexterity-and-survival-in-corporate-venture-units.pdf,CVC:564:13684,1.0,True,CVC:564:13684,1.0,True
-CVC:564:13686,CVC,564,Strategic Entrepreneurship - 2009 - Hill - Transferability of the venture capital model to the corporate context .pdf,OD:116:2993,1.0,False,OD:116:2993,1.0,False
-OD:18:148,OD,18,1-s2.0-S002463011730287X-main.pdf,OD:18:2053,0.081302,True,OD:18:3000,0.463315,True
-OD:82:859,OD,82,1-s2.0-S088390260900072X-main.pdf,OD:82:1717,0.066551,True,OD:82:2385,0.403086,True
-OD:18:945,OD,18,1-s2.0-S0883902618307444-main.pdf,CVC:347:10908,0.093137,False,OD:82:1717,0.654936,False
-OD:92:1172,OD,92,1-s2.0-S2199853122011325-main.pdf,OD:92:1187,0.809559,True,OD:92:1187,0.875504,True
-OD:92:1187,OD,92,1-s2.0-S2199853122011325-main.pdf,OD:92:1172,0.809559,True,OD:92:1172,0.875504,True
-OD:92:1217,OD,92,1-s2.0-S2199853122011325-main.pdf,OD:92:1187,0.482109,True,OD:92:1223,0.700707,True
-OD:92:1222,OD,92,1-s2.0-S2199853122011325-main.pdf,OD:92:1223,0.455803,True,OD:92:1224,0.816965,True
-OD:92:1223,OD,92,1-s2.0-S2199853122011325-main.pdf,OD:92:1224,0.559682,True,OD:92:1224,0.801562,True
-OD:92:1224,OD,92,1-s2.0-S2199853122011325-main.pdf,OD:92:1223,0.559682,True,OD:92:1222,0.816965,True
-OD:82:1700,OD,82,Corporate Venture Capital Organizations in Germany (1).pdf,OD:82:1717,1.0,True,OD:82:1717,1.0,True
-OD:82:1717,OD,82,Corporate Venture Capital Organizations in Germany.pdf,OD:82:1700,1.0,True,OD:82:1700,1.0,True
-OD:18:2053,OD,18,hill-birkinshaw-2012-ambidexterity-and-survival-in-corporate-venture-units (1).pdf,OD:18:2150,1.0,True,OD:18:2150,1.0,True
-OD:116:2093,OD,116,hill-birkinshaw-2012-ambidexterity-and-survival-in-corporate-venture-units (1).pdf,CVC:564:13685,1.0,False,CVC:564:13685,1.0,False
-OD:18:2150,OD,18,hill-birkinshaw-2012-ambidexterity-and-survival-in-corporate-venture-units.pdf,OD:18:2053,1.0,True,OD:18:2053,1.0,True
-OD:116:2190,OD,116,hill-birkinshaw-2012-ambidexterity-and-survival-in-corporate-venture-units.pdf,CVC:564:13685,1.0,False,CVC:564:13685,1.0,False
-OD:82:2385,OD,82,Lifespans of corporate and independent venture capitalists  a systematic review.pdf,OD:82:1717,0.165478,True,OD:82:1717,0.431125,True
-OD:116:2993,OD,116,Strategic Entrepreneurship - 2009 - Hill - Transferability of the venture capital model to the corporate context .pdf,CVC:564:13686,1.0,False,CVC:564:13686,1.0,False
-OD:18:3000,OD,18,Strategic Entrepreneurship - 2009 - Hill - Transferability of the venture capital model to the corporate context .pdf,OD:18:2053,0.088956,True,CVC:347:10908,0.697497,False
+CVC:673:3729,CVC,673,source_doc_0251.pdf,CVC:673:9433,0.164299,source_doc_0297.pdf,CVC:673:9433,0.786491,source_doc_0297.pdf
+CVC:347:7806,CVC,347,source_doc_0039.pdf,CVC:347:10908,0.184912,source_doc_0297.pdf,CVC:347:10909,0.578359,source_doc_0297.pdf
+CVC:673:8049,CVC,673,source_doc_0266.pdf,CVC:673:9433,0.866178,source_doc_0297.pdf,CVC:673:9433,0.957166,source_doc_0297.pdf
+CVC:673:9433,CVC,673,source_doc_0266.pdf,CVC:673:8049,0.866178,source_doc_0297.pdf,CVC:673:8049,0.957166,source_doc_0297.pdf
+CVC:347:10908,CVC,347,source_doc_0335.pdf,CVC:347:10909,0.921376,source_doc_0297.pdf,CVC:347:10909,0.915043,source_doc_0297.pdf
+CVC:347:10909,CVC,347,source_doc_0335.pdf,CVC:347:10908,0.921376,source_doc_0297.pdf,CVC:347:10908,0.915043,source_doc_0297.pdf
+CVC:580:11260,CVC,580,source_doc_0258.pdf,CVC:580:11261,1.0,source_doc_0297.pdf,CVC:580:11261,1.0,source_doc_0297.pdf
+CVC:580:11261,CVC,580,source_doc_0260.pdf,CVC:580:11260,1.0,source_doc_0297.pdf,CVC:580:11260,1.0,source_doc_0297.pdf
+CVC:580:11762,CVC,580,source_doc_0253.pdf,OD:18:945,0.038708,False,CVC:580:11260,0.534488,source_doc_0297.pdf
+CVC:564:13684,CVC,564,source_doc_0314.pdf,CVC:564:13685,1.0,source_doc_0297.pdf,CVC:564:13685,1.0,source_doc_0297.pdf
+CVC:564:13685,CVC,564,source_doc_0316.pdf,CVC:564:13684,1.0,source_doc_0297.pdf,CVC:564:13684,1.0,source_doc_0297.pdf
+CVC:564:13686,CVC,564,source_doc_0266.pdf,OD:116:2993,1.0,False,OD:116:2993,1.0,False
+OD:18:148,OD,18,source_doc_0011.pdf,OD:18:2053,0.081302,source_doc_0297.pdf,OD:18:3000,0.463315,source_doc_0297.pdf
+OD:82:859,OD,82,source_doc_0033.pdf,OD:82:1717,0.066551,source_doc_0297.pdf,OD:82:2385,0.403086,source_doc_0297.pdf
+OD:18:945,OD,18,source_doc_0038.pdf,CVC:347:10908,0.093137,False,OD:82:1717,0.654936,False
+OD:92:1172,OD,92,source_doc_0050.pdf,OD:92:1187,0.809559,source_doc_0297.pdf,OD:92:1187,0.875504,source_doc_0297.pdf
+OD:92:1187,OD,92,source_doc_0050.pdf,OD:92:1172,0.809559,source_doc_0297.pdf,OD:92:1172,0.875504,source_doc_0297.pdf
+OD:92:1217,OD,92,source_doc_0050.pdf,OD:92:1187,0.482109,source_doc_0297.pdf,OD:92:1223,0.700707,source_doc_0297.pdf
+OD:92:1222,OD,92,source_doc_0050.pdf,OD:92:1223,0.455803,source_doc_0297.pdf,OD:92:1224,0.816965,source_doc_0297.pdf
+OD:92:1223,OD,92,source_doc_0050.pdf,OD:92:1224,0.559682,source_doc_0297.pdf,OD:92:1224,0.801562,source_doc_0297.pdf
+OD:92:1224,OD,92,source_doc_0050.pdf,OD:92:1223,0.559682,source_doc_0297.pdf,OD:92:1222,0.816965,source_doc_0297.pdf
+OD:82:1700,OD,82,source_doc_0241.pdf,OD:82:1717,1.0,source_doc_0297.pdf,OD:82:1717,1.0,source_doc_0297.pdf
+OD:82:1717,OD,82,source_doc_0242.pdf,OD:82:1700,1.0,source_doc_0297.pdf,OD:82:1700,1.0,source_doc_0297.pdf
+OD:18:2053,OD,18,source_doc_0314.pdf,OD:18:2150,1.0,source_doc_0297.pdf,OD:18:2150,1.0,source_doc_0297.pdf
+OD:116:2093,OD,116,source_doc_0314.pdf,CVC:564:13685,1.0,False,CVC:564:13685,1.0,False
+OD:18:2150,OD,18,source_doc_0316.pdf,OD:18:2053,1.0,source_doc_0297.pdf,OD:18:2053,1.0,source_doc_0297.pdf
+OD:116:2190,OD,116,source_doc_0316.pdf,CVC:564:13685,1.0,False,CVC:564:13685,1.0,False
+OD:82:2385,OD,82,source_doc_0256.pdf,OD:82:1717,0.165478,source_doc_0297.pdf,OD:82:1717,0.431125,source_doc_0297.pdf
+OD:116:2993,OD,116,source_doc_0266.pdf,CVC:564:13686,1.0,False,CVC:564:13686,1.0,False
+OD:18:3000,OD,18,source_doc_0266.pdf,OD:18:2053,0.088956,source_doc_0297.pdf,CVC:347:10908,0.697497,False
