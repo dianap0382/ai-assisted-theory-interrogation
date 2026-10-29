@@ -1,6 +1,10 @@
-# Corporate venturing routine analysis
+# AI-Assisted Theory Development
 
-This repository contains five reproducible case-specific analyses developed for a research proposal on corporate venturing routines and organizational design. The cases provide examples of how literature-derived constructs can be compared, qualified, or challenged by empirical passages and quantitative indicators. They are case-level demonstrations, not a regeneration of the original full literature or interview corpora.
+This repository contains five case-level computational analyses developed for the research proposal AI-Assisted Theory Development: Interrogating Theory Through Its Computational Representation.
+
+Using corporate venturing and organizational design as the empirical and theoretical settings, the analyses examine how computational representations can help interrogate existing theory by identifying patterns of recognition, differentiation, dynamics, and theoretical limits. Computational signals serve as diagnostic starting points for returning to the evidence, assessing alternative explanations, and considering theoretical elaboration, rather than as theoretical findings in themselves.
+
+The repository supports reproduction of the specified case-level analyses, not reconstruction of the original literature and interview corpora or independent reproduction of researcher adjudication.
 
 ## Getting started
 
