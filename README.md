@@ -49,7 +49,7 @@ The repository demonstrates the architecture through five candidate cases in cor
 
 ## Getting started
 
-Use **Python 3.11 or later** (core scripts checked with Python 3.13.5). Create a virtual environment and install the dependencies listed in requirements.txt.
+Use **Python 3.11 or later** (core scripts checked with Python 3.13.5). Create a virtual environment, activate it using the command appropriate to your operating system, and install the dependencies listed in `requirements.txt`.
 
 From the repository root, execute the following commands. The scripts access their inputs and save generated results within their respective case directories.
 
