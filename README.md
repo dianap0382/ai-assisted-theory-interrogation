@@ -41,11 +41,15 @@ Generated results are saved in each case’s outputs/ directory. Some additional
 
 ## Case guide
 
-- **Case 1: Incentives.** Run `case1/scripts/run_case1.py` to compare incentive and strategic-value anchors with saved literature context rows using TF–IDF; optionally run `run_semantic_case1.py` for sentence embedding comparison.
-- **Case 2: Autonomy.** Run `case2/scripts/run_case2.py` for candidate-row provenance checks, dictionary-sensitivity and lexical comparison. The full original paper-corpus clustering is outside this case-specific run.
-- **Case 3: Partner integration.** Run `case3/scripts/run_case3.py` for dictionary screening and candidate similarity; optionally run `run_semantic_case3.py` for embedding comparisons.
-- **Case 4: Early-stage investment.** Run `case4/scripts/verify_case4.py` to check the saved, pseudonymized indicator tables and case-level distinctions.
-- **Case 5: Fast-track governance.** Run `case5/scripts/verify_case5.py` to check the saved indicator data and threshold sensitivity.
+The five cases illustrate how computational representations can support four epistemic functions of theory interrogation: recognition, differentiation, dynamics, and limits. Each analysis generates or examines diagnostic signals that require interpretation against the underlying evidence.
+
+- **Case 1: Incentives | Recognition (preservation).** Examines whether incentive-related practices in corporate venturing are recognized by existing organizational design constructs. Run `case1/scripts/run_case1.py` for TF-IDF comparisons of theoretical anchors and literature-derived passages. Optionally run `case1/scripts/run_semantic_case1.py` for sentence-embedding comparisons. The evidence does not yet establish a qualified preservation finding.
+- **Case 2: Autonomy | Differentiation (decomposition).** Examines whether established theoretical categories adequately distinguish dimensions of corporate venturing unit autonomy. Run `case2/scripts/run_case2.py` for candidate provenance checks, dictionary sensitivity, and lexical comparisons. The decomposition signal remains sensitive to representational choices. The original full-corpus clustering is not reproduced.
+- **Case 3: Partner integration | Differentiation (recombination).** Examines whether empirical practices suggest connections between theoretical constructs that are ordinarily treated separately. Run `case3/scripts/run_case3.py` for dictionary screening and candidate similarity analysis. Optionally run `case3/scripts/run_semantic_case3.py` for embedding comparisons. Recombination is supported descriptively within one article, but independent recurrence has not been established.
+- **Case 4: Early-stage investment | Dynamics (tension).** Examines tensions between formal investment authority and the organizational conditions required to sustain early-stage investment. Run `case4/scripts/verify_case4.py` to verify saved pseudonymized indicators and case-level distinctions. This case illustrates the full six-step theory interrogation cycle, including theoretical elaboration concerning buffering from the parent firm’s expectation horizon.
+- **Case 5: Fast-track governance | Limits (candidate non-fit).** Examines whether an apparent mismatch between established theory and empirical practice indicates a theoretical limit. Run `case5/scripts/verify_case5.py` to check saved indicators and threshold sensitivity. Returning to the evidence shows that the fast-track procedure was proposed rather than enacted, so the candidate non-fit does not survive qualitative adjudication.
+
+These analyses reproduce specified computational comparisons or verify saved indicators. They do not independently reproduce the qualitative adjudication or establish the theoretical interpretations. The accompanying technical documentation explains the analytical procedures, evidence, and qualifications.
 
 ## Reproducibility scope
 
