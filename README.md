@@ -1,21 +1,51 @@
 # AI-Assisted Theory Development
 
-This repository accompanies the research proposal AI-Assisted Theory Development: Interrogating Theory Through Its Computational Representation and contains five case-level computational analyses demonstrating the proposed approach.
+Companion repository to the research proposal *AI-Assisted Theory Development: Interrogating Theory Through Its Computational Representation*. It contains five case-level computational analyses demonstrating the proposed approach.
 
-Theory makes empirical phenomena intelligible by specifying constructs, distinctions, relationships, and mechanisms. Yet these specifications also shape what researchers can recognize. Computational methods can amplify this limitation when they use existing theoretical categories to classify evidence without examining the adequacy of those categories.
+## Overview
 
-We develop an approach in which theory both structures the computational search and becomes the object of that search. By encoding theory in computational representations, researchers can systematically investigate where existing constructs and explanations hold, require qualification, or encounter limits.
+Theory makes complex empirical phenomena intelligible by specifying constructs, the distinctions and relationships among them, and the mechanisms that account for those phenomena. This specification also shapes what researchers can see.
 
-The approach is organized around four epistemic questions:
+To search large bodies of text, theory must first be encoded in a computational representation: dictionaries, embeddings, similarity measures, and mapping rules. Applied at scale, this representation recognizes what resembles existing constructs and systematically overlooks what does not. When used only to classify evidence into existing constructs, computational methods reproduce existing theory more efficiently.
 
-1. Recognition: Does theory see the phenomenon?
-2. Differentiation: Do its distinctions hold?
-3. Dynamics: What happens to practices in enactment?
-4. Limits: What remains persistently unexplained?
+We develop an architecture in which **theory both structures the search and is what the search examines**. The computational representation detects where theory holds or breaks down; human adjudication distinguishes computational artifacts from theoretical opportunities.
 
-Computational representations generate diagnostic signals that direct researchers toward potentially informative observations. These signals are not theoretical findings. Through a six-step cycle of detection, return to evidence, representational sensitivity, puzzle formulation, rival explanations, and theoretical elaboration, researchers distinguish computational artifacts from theoretical opportunities.
+## Four epistemic questions
 
-The repository demonstrates this approach through five cases drawn from corporate venturing scholarship, organizational design theory, and practitioner interviews. It supports reproduction of specified case-level computational analyses and verification of selected indicators, not reconstruction of the original literature and interview corpora or independent reproduction of researcher adjudication.
+The architecture is organized around four epistemic functions rather than algorithms. Each function poses one question to theory:
+
+1. **Recognition:** Does theory see the phenomenon?
+2. **Differentiation:** Do its distinctions hold?
+3. **Dynamics:** What happens to practices in enactment?
+4. **Limits:** What remains persistently unexplained?
+
+## From signal to theoretical elaboration
+
+A signal is not a finding. The six-step cycle proceeds under human adjudication:
+
+1. **Detect:** The computational representation detects a signal.
+2. **Return to evidence:** Researchers examine the passages or interview segments that produced the signal.
+3. **Representational sensitivity:** Researchers test whether the signal persists when dictionaries, models, or granularity are altered.
+4. **Puzzle:** A surviving signal is stated as a theoretical puzzle using the question its epistemic function poses.
+5. **Rival explanations:** Researchers assess whether existing theory already accounts for the pattern, whether it is a contextual variation of a known mechanism, or whether it points to something theory omits.
+6. **Elaboration:** Researchers determine whether to redraw a construct boundary, specify a configuration of mechanisms, add a contingency or process of change, or state the limits of theory's scope.
+
+Returning to the evidence can itself dissolve a signal. The cycle is designed to record the signal, evidence, checks, rival explanations considered, and decision taken, making human adjudication auditable rather than tacit. Theoretical elaboration can then revise the computational representation so that the search begins again.
+
+AI does not develop theory. It expands systematic, human-directed search for theoretical opportunities, while explanation and inference remain with researchers.
+
+## Repository scope
+
+The repository demonstrates the architecture through five candidate cases in corporate venturing, drawing on organizational design theory, corporate venturing scholarship, and practitioner interviews.
+
+**The repository supports:**
+- Reproduction of specified case-level computational analyses.
+- Verification of selected indicators.
+- Inspection of available supporting analytical records.
+
+**It does not support:**
+- Reconstruction of the original literature and interview corpora.
+- Independent reproduction of researcher adjudication or theoretical interpretations.
 
 ## Getting started
 
