@@ -49,9 +49,7 @@ The five cases illustrate how computational representations can support four epi
 - **Case 4: Early-stage investment | Dynamics (tension).** Examines tensions between formal investment authority and the organizational conditions required to sustain early-stage investment. Run `case4/scripts/verify_case4.py` to verify saved pseudonymized indicators and case-level distinctions. This case illustrates the full six-step theory interrogation cycle, including theoretical elaboration concerning buffering from the parent firm’s expectation horizon.
 - **Case 5: Fast-track governance | Limits (candidate non-fit).** Examines whether an apparent mismatch between established theory and empirical practice indicates a theoretical limit. Run `case5/scripts/verify_case5.py` to check saved indicators and threshold sensitivity. Returning to the evidence shows that the fast-track procedure was proposed rather than enacted, so the candidate non-fit does not survive qualitative adjudication.
 
-These analyses reproduce specified computational comparisons or verify saved indicators. They do not independently reproduce the qualitative adjudication or establish the theoretical interpretations. The accompanying technical documentation explains the analytical procedures, evidence, and qualifications.
-
-## Reproducing and Verifying the Five Cases.
+## Reproducing and verifying the five cases
 
 The five cases provide reproducible computational comparisons or verification checks that support the theory interrogation process. Reviewers can execute the scripts listed below and compare their results with the saved outputs. Successful computational reproduction establishes consistency of the reported indicators and comparisons, not independent validation of the theoretical interpretations or researcher adjudication.
 
@@ -121,12 +119,14 @@ The repository distinguishes three categories of evidence:
 2. Verified indicators: Existing data and analytical distinctions checked by verification scripts against specified criteria.
 3. Supporting analytical records: Additional outputs, source-level assessments, and researcher adjudication that are documented but not independently regenerated.
 
-Computational reproducibility does not, by itself, establish the validity of a theoretical interpretation. The six-step theory interrogation process requires returning to the underlying evidence, assessing representational sensitivity, developing theoretical puzzles, considering rival explanations, and evaluating opportunities for theoretical elaboration.
+Computational reproducibility does not, by itself, establish the validity of a theoretical interpretation. The theory interrogation cycle comprises six stages: Detect, Return to Evidence, Representational Sensitivity, Puzzle, Rival Explanations, and Elaboration. Computational signals initiate this process but do not replace returning to the underlying evidence or researcher adjudication.
 
 Further details on the analytical procedures, evidence, and qualifications are provided in TECHNICAL_DOCUMENTATION.md.
 
 ## Reproducibility scope
 
-The repository contains the data needed for the listed case-specific scripts. It does not reconstruct all source PDFs, original interview text, full-corpus clustering, or researcher adjudication decisions. Case 4 and 5 contain pseudonymized numeric segment indicators, not original quotations. Research context snippets in Cases 1–3 derive from published academic sources; attribution and reuse rights remain governed by the underlying publications. The analyses are diagnostic screens, not proof of causal mechanisms or a substitute for qualitative validation.
+The repository contains the data needed for the listed case-specific scripts. It does not reconstruct all source PDFs, original interview text, full-corpus clustering, or researcher adjudication decisions. Cases 4 and 5 contain pseudonymized numerical segment indicators rather than original interview quotations. Research context snippets in Cases 1–3 derive from published academic sources; attribution and reuse rights remain governed by the underlying publications. The analyses are diagnostic screens, not proof of causal mechanisms or a substitute for qualitative validation.
+
+[DIANA: Also confirm whether running the scripts overwrites saved reference outputs. If so, specify how reviewers should preserve the originals or perform comparisons against the committed versions.]
 
 Detailed computational descriptions and decisions are summarized in `TECHNICAL_DOCUMENTATION.md`.
