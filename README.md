@@ -172,9 +172,7 @@ The repository distinguishes three categories of evidence:
 2. Verified indicators: Existing data and analytical distinctions checked by verification scripts against specified criteria.
 3. Supporting analytical records: Additional outputs, source-level assessments, and researcher adjudication that are documented but not independently regenerated.
 
-Computational reproducibility does not, by itself, establish the validity of a theoretical interpretation. The theory interrogation cycle comprises six stages: Detect, Return to Evidence, Representational Sensitivity, Puzzle, Rival Explanations, and Elaboration. Computational signals initiate this process but do not replace returning to the underlying evidence or researcher adjudication.
-
-Further details on the analytical procedures, evidence, and qualifications are provided in TECHNICAL_DOCUMENTATION.md.
+Computational reproducibility does not, by itself, establish the validity of a theoretical interpretation. 
 
 ## Reproducibility scope
 
