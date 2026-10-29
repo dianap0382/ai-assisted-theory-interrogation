@@ -182,4 +182,4 @@ The repository contains the data needed for the listed case-specific scripts. It
 
 [DIANA: Please confirm that all five core scripts and both optional semantic scripts execute correctly when invoked from the repository root, exactly as shown in the README.]
 
-Detailed computational descriptions and decisions are summarized in `TECHNICAL_DOCUMENTATION.md`.
+Detailed computational descriptions and decisions are summarized in `TECHNICAL_DOCUMENTATION.pdf`.
