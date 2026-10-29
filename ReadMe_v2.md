@@ -6,6 +6,7 @@ It contains five case-level computational analyses demonstrating the proposed ap
 
 **Where to start:** to run the analyses, go to [Getting started](#getting-started). To understand the approach, read the [Overview](#overview) and the [Analytical framework](#analytical-framework). To check results case by case, see [The five cases](#the-five-cases).
 
+
 ## Overview
 
 Theory makes complex empirical phenomena intelligible by specifying constructs, the distinctions and relationships among them, and the mechanisms that account for those phenomena. This specification also shapes what researchers can see.
@@ -15,6 +16,7 @@ To search large bodies of text, theory must first be encoded in a computational 
 We develop an architecture in which **theory both structures the search and is what the search examines**. The computational representation detects where theory holds or breaks down; human adjudication distinguishes computational artifacts from theoretical opportunities. AI does not develop theory. It expands systematic, human-directed search for theoretical opportunities, while explanation and inference remain with researchers.
 
 The repository demonstrates the architecture through five candidate cases in corporate venturing, drawing on organizational design theory, corporate venturing scholarship, and practitioner interviews.
+
 
 ## What this repository supports
 
@@ -33,8 +35,6 @@ See [Reproducibility and verification](#reproducibility-and-verification) for wh
 
 
 ## Repository layout
-
-These comparisons produce signals for the four epistemic functions. The six-step theory interrogation cycle then determines whether a signal reflects a computational artifact, an observation already explained by existing theory, or an opportunity for theoretical elaboration.
 
 Case 1 is shown as an example. `case2/` to `case5/` also contain `scripts/` and `outputs/` directories.
 
@@ -109,6 +109,7 @@ The core lexical analyses and indicator checks do not require pretrained models.
 
 Generated results are saved in each case’s `outputs/` directory. The case-specific instructions in [The five cases](#the-five-cases) identify which results can be reproduced and how to compare them with the saved outputs.
 
+
 ## Analytical framework
 
 ### Four epistemic questions
@@ -144,6 +145,7 @@ The five cases draw on two complementary comparisons.
 These comparisons produce signals for the four epistemic functions. The six-step theory interrogation cycle then determines whether a signal reflects a computational artifact, an observation already explained by existing theory, or an opportunity for theoretical elaboration.
 
 > [DIANA: For Cases 4 and 5, specify which of OIR-L, OIR-S, PIR, and TI appear in the saved outputs, and confirm that `TECHNICAL_DOCUMENTATION.md` explicitly links each to the case-level diagnostic signal and the subsequent qualitative adjudication.]
+
 
 ## The five cases
 
@@ -229,6 +231,7 @@ The five cases illustrate how computational representations can support the four
 
 **Outcome:** Returning to the evidence shows that the fast-track procedure was proposed rather than enacted, so the candidate non-fit does not survive qualitative adjudication.
 
+
 ## Reproducibility and verification
 
 ### What verification means
@@ -252,6 +255,7 @@ Some files in each case’s `outputs/` directory belong to this third category: 
 ### What is and is not included
 
 The repository contains the data needed for the listed case-specific scripts. It does not reconstruct all source PDFs, original interview text, full-corpus clustering, or researcher adjudication decisions. Cases 4 and 5 contain pseudonymized numerical segment indicators rather than original interview quotations. Research context snippets in Cases 1–3 derive from published academic sources; attribution and reuse rights remain governed by the underlying publications. The analyses are diagnostic screens, not proof of causal mechanisms or a substitute for qualitative validation.
+
 
 ## Further documentation, citation, and license
 
