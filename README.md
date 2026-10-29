@@ -88,7 +88,7 @@ Comparison A: Corporate venturing scholarship and organizational design theory. 
 
 Comparison B: Practitioner enactment and ostensive baselines. Interview evidence is compared with literature-derived descriptions of organizational practices. Three diagnostic measures distinguish different relationships between established expectations and actual enactment: the Ostensive Invocation Rate (OIR-L and OIR-S) captures lexical and semantic invocation of the baseline; the Performative Improvisation Rate (PIR) captures departures from it; and the Tension Index (TI) captures the conjunction of invoking the baseline’s vocabulary while departing from it.
 
-These comparisons produce signals for the four epistemic functions. The six-step theory interrogation cycle then determines whether a signal reflects a computational artifact, an observation already explained by existing theory, or an opportunity for theoretical elaboration. Each step is documented to make the analytical process and researcher adjudication traceable.
+These comparisons produce signals for the four epistemic functions. The six-step theory interrogation cycle then determines whether a signal reflects a computational artifact, an observation already explained by existing theory, or an opportunity for theoretical elaboration. The accompanying technical documentation records the available analytical procedures, evidence, and researcher adjudication, while identifying limitations in what can be independently reproduced.
 
 ## Case guide
 
