@@ -254,7 +254,7 @@ Some files in each case’s `outputs/` directory belong to this third category: 
 
 ### What is and is not included
 
-The repository contains the data needed for the listed case-specific scripts. It does not reconstruct all source PDFs, original interview text, full-corpus clustering, or researcher adjudication decisions. Cases 4 and 5 contain pseudonymized numerical segment indicators rather than original interview quotations. Research context snippets in Cases 1–3 derive from published academic sources; attribution and reuse rights remain governed by the underlying publications. The analyses are diagnostic screens, not proof of causal mechanisms or a substitute for qualitative validation.
+The repository contains the data needed for the listed case-specific scripts. It does not reconstruct all source PDFs, original interview text, full-corpus clustering, or researcher adjudication decisions. Cases 4 and 5 contain pseudonymized numerical segment indicators rather than original interview quotations. Research context snippets in Cases 1–3 derive from published academic sources; attribution and reuse rights remain governed by the underlying publications. The analyses are diagnostic screens, not proof of causal mechanisms or a substitute for qualitative validation. The prior practice co-occurrence network is not reported as an empirical finding because its segment-key logic has not been independently validated. Independent verification against original academic publications requires separately obtained authorized copies of the source PDFs.
 
 
 ## Further documentation, citation, and license
