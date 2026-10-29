@@ -14,15 +14,25 @@ From the repository root, execute the following commands. The scripts access the
 
 ```bash
 python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
+
+# Windows: 
+.venv\Scripts\activate
+
+# macOS/Linux: 
+source .venv/bin/activate
+
 python -m pip install -r requirements.txt
+
 # Core case-level analyses
 python case1/scripts/run_case1.py
 python case2/scripts/run_case2.py
 python case3/scripts/run_case3.py
 python case4/scripts/verify_case4.py
 python case5/scripts/verify_case5.py
+
+# Optional semantic embedding analyses
+python case1/scripts/run_semantic_case1.py
+python case3/scripts/run_semantic_case3.py
 ```
 
 The core lexical analyses and indicator checks do not require pretrained models. The optional semantic analyses download the specified sentence-transformer models on first use.
