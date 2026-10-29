@@ -129,4 +129,6 @@ The repository contains the data needed for the listed case-specific scripts. It
 
 [DIANA: Also confirm whether running the scripts overwrites saved reference outputs. If so, specify how reviewers should preserve the originals or perform comparisons against the committed versions.]
 
+[DIANA: Please confirm that all five core scripts and both optional semantic scripts execute correctly when invoked from the repository root, exactly as shown in the README.]
+
 Detailed computational descriptions and decisions are summarized in `TECHNICAL_DOCUMENTATION.md`.
