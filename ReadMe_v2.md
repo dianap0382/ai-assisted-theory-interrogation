@@ -112,6 +112,8 @@ The five cases draw on two complementary comparisons.
 
 **Comparison B**: Practitioner enactment and ostensive baselines. Interview evidence is compared with literature-derived descriptions of organizational practices. Three diagnostic measures characterize the relationship between established expectations and reported enactment. The Ostensive Invocation Rate has two variants: OIR-L measures lexical invocation of the literature-derived baseline, while OIR-S measures semantic invocation. The Performative Improvisation Rate (PIR) measures departures from that baseline. The Tension Index (TI) identifies instances in which practitioners invoke the baseline's vocabulary while describing departures from it. These indicators inform the practitioner-based analyses in Cases 4 and 5; they do not independently establish theoretical mechanisms or whether a reported practice was actually enacted.
 
+These comparisons produce signals for the four epistemic functions. The six-step theory interrogation cycle then determines whether a signal reflects a computational artifact, an observation already explained by existing theory, or an opportunity for theoretical elaboration.
+
 > [DIANA: For Cases 4 and 5, specify which of OIR-L, OIR-S, PIR, and TI appear in the saved outputs, and confirm that `TECHNICAL_DOCUMENTATION.md` explicitly links each to the case-level diagnostic signal and the subsequent qualitative adjudication.]
 
 ## The five cases
