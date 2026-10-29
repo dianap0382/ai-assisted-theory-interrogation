@@ -12,7 +12,7 @@ We develop an architecture in which **theory both structures the search and is w
 
 ## Four epistemic questions
 
-The architecture is organized around four epistemic functions rather than algorithms. Each function poses one question to theory:
+The architecture is organized around four epistemic functions. Each function poses one question to theory:
 
 1. **Recognition:** Does theory see the phenomenon?
 2. **Differentiation:** Do its distinctions hold?
