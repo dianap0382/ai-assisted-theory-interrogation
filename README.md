@@ -28,7 +28,7 @@ A signal is not a finding. The six-step cycle proceeds under human adjudication:
 3. **Representational sensitivity:** Researchers test whether the signal persists when dictionaries, models, or granularity are altered.
 4. **Puzzle:** A surviving signal is stated as a theoretical puzzle using the question its epistemic function poses.
 5. **Rival explanations:** Researchers assess whether existing theory already accounts for the pattern, whether it is a contextual variation of a known mechanism, or whether it points to something theory omits.
-6. **Elaboration:** Researchers determine whether to redraw a construct boundary, specify a configuration of mechanisms, add a contingency or process of change, or state the limits of theory's scope.
+6. **Elaboration:** If rival explanations do not account for the pattern, researchers determine whether to redraw a construct boundary, specify a configuration of mechanisms, add a contingency or process of change, or state the limits of theory’s scope.
 
 Returning to the evidence can itself dissolve a signal. The cycle is designed to record the signal, evidence, checks, rival explanations considered, and decision taken, making human adjudication auditable rather than tacit. Theoretical elaboration can then revise the computational representation so that the search begins again.
 
