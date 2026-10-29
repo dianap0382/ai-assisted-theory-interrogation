@@ -13,7 +13,7 @@ Theory makes complex empirical phenomena intelligible by specifying constructs, 
 
 To search large bodies of text, theory must first be encoded in a computational representation: dictionaries, embeddings, similarity measures, and mapping rules. Applied at scale, this representation recognizes what resembles existing constructs and systematically overlooks what does not. When used only to classify evidence into existing constructs, computational methods reproduce existing theory more efficiently.
 
-We develop an architecture in which **theory both structures the search and is what the search examines**. The computational representation detects where theory holds or breaks down; human adjudication distinguishes computational artifacts from theoretical opportunities. AI does not develop theory. It expands systematic, human-directed search for theoretical opportunities, while explanation and inference remain with researchers.
+We develop an architecture in which **theory both structures the search and is what the search examines**. The computational representation identifies potential points of theoretical fit or mismatch; human adjudication determines whether these signals reflect computational artifacts, observations already explained by existing theory, or opportunities for theoretical elaboration. AI does not develop theory. It expands systematic, human-directed search for theoretical opportunities, while explanation and inference remain with researchers.
 
 The repository demonstrates the architecture through five candidate cases in corporate venturing, drawing on organizational design theory, corporate venturing scholarship, and practitioner interviews.
 
