@@ -1,13 +1,6 @@
 {
-  "corpus_table": "Outputs/Strand 2_OP Outputs-20261022T090148Z-1-001/Strand 2_OP Outputs/m4_master_task4b_multilingual_quadrants.csv",
-  "row_key": {
-    "interview_id": "interview_33",
-    "segment_id": 509
-  },
-  "source_pdf_pages_checked": [
-    21,
-    22
-  ],
-  "source_pdf_repository": "restricted interview archive only; original filename intentionally withheld",
-  "note": "No transcript text, raw page image, identifiable metadata, or source-PDF bytes redistributed."
+  "data_source": "Saved case-level derived numerical indicators",
+  "row_key": "Case-local pseudonymized focal segment identifier",
+  "source_verification": "Original source evidence reviewed by the research team; source interview texts are not included",
+  "data_scope": "No transcript text, raw page image, identifying metadata or source-PDF bytes distributed"
 }
