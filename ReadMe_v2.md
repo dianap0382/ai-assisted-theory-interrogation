@@ -1,6 +1,8 @@
 # AI-Assisted Theory Development
 
-Companion repository to the research proposal *AI-Assisted Theory Development: Interrogating Theory Through Its Computational Representation*. It contains five case-level computational analyses demonstrating the proposed approach.
+Companion repository to the research proposal *AI-Assisted Theory Development: Interrogating Theory Through Its Computational Representation*. 
+
+It contains five case-level computational analyses demonstrating the proposed approach.
 
 **Where to start:** to run the analyses, go to [Getting started](#getting-started). To understand the approach, read the [Overview](#overview) and the [Analytical framework](#analytical-framework). To check results case by case, see [The five cases](#the-five-cases).
 
