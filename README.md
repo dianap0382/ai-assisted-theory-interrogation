@@ -251,7 +251,3 @@ The repository contains extracted text passages, transformed indicators, and int
 ## Further documentation, citation, and license
 
 Detailed computational descriptions and decisions are summarized in [`technical_appendix.pdf`](https://github.com/dianap0382/ai-assisted-theory-interrogation/blob/main/technical_appendix.pdf), which records the available analytical procedures, evidence, and researcher adjudication, and identifies limitations in what can be independently reproduced.
-
-**Citation:** [TODO: add once the journal’s anonymous review requirements allow. A `CITATION.cff` file names authors, so add it only when that is permitted.]
-
-**License:** [TODO: decide after clarifying which components (code, text snippets from published sources, pseudonymized interview indicators) may be shared and under what terms. A standard software license may not cover the underlying published or interview-derived materials.]
