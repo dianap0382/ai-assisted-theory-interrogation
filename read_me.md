@@ -102,8 +102,8 @@ python case4-dynamics-tension/scripts/verify_case4.py
 python case5-limits-nonfit/scripts/verify_case5.py
 
 # Optional semantic embedding analyses
-python case1/scripts/run_semantic_case1.py
-python case3/scripts/run_semantic_case3.py
+python case1-recognition-preservation/scripts/run_semantic_case1.py
+python case3-differentiation-recombination/scripts/run_semantic_case3.py
 ```
 
 The five core case-level scripts were successfully executed and verified using Python 3.13.5. The optional sentence-embedding analyses for Cases 1 and 3 are provided as additional functionality and require pretrained models and their associated dependencies. These optional analyses have not been included in the verified reproduction checks.
