@@ -1,10 +1,4 @@
 {
-  "source_archive": "Everything(2).zip",
-  "source_tables": {
-    "cvc": "Outputs/code outputs-20261022T090124Z-1-001/code outputs/clustering_outlier_filtered_practices(0.15,3).csv",
-    "od": "Outputs/Code outputs-20261022T090135Z-1-001/Code outputs/context_based_cluster_summary_OD.csv",
-    "cvc_summary": "Outputs/code outputs-20261022T090124Z-1-001/code outputs/context_based_cluster_summary.csv"
-  },
   "od_candidates": [
     0,
     1,

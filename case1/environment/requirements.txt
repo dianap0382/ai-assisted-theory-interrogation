@@ -1,6 +1,2 @@
-pandas>=2.0
-numpy>=1.24
-scikit-learn>=1.2
-pymupdf>=1.24
-nbformat>=5.0
-sentence-transformers>=3.0
+# Core pinned dependencies: use ../../requirements.txt from repository root.
+# Optional semantic script additionally requires sentence-transformers and downloaded models.

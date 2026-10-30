@@ -1,7 +1,9 @@
-numpy>=1.26,<3
-pandas>=2.1,<3
-scikit-learn>=1.3,<2
-PyYAML>=6,<7
-PyMuPDF>=1.23,<2
-sentence-transformers>=3,<6
-nbformat>=5,<6
+# Versions verified in the core case-level execution environment (Python 3.13.5).
+numpy==2.3.5
+pandas==2.2.3
+scikit-learn==1.8.0
+PyYAML==6.0.3
+PyMuPDF==1.26.7
+nbformat==5.10.4
+# Optional semantic analyses require sentence-transformers and model downloads.
+# Their dependency/model combination has not been verified in this environment.
