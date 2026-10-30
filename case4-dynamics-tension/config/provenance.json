@@ -12,7 +12,7 @@
     "interview_id",
     "segment_id"
   ],
-  "model": "Saved case-level lexical and semantic scores; model families described in TECHNICAL_DOCUMENTATION.md",
+  "model": "Saved case-level lexical and semantic scores; model families are described in the accompanying technical appendix",
   "python": "3.13.5",
   "pandas": "2.2.3"
 }
