@@ -151,7 +151,7 @@ These comparisons produce signals for the four epistemic functions. The six-step
 
 The five cases illustrate how computational representations can support the four epistemic functions of theory interrogation. Each case provides a reproducible computational comparison or verification check that supports the theory interrogation process, and each analysis generates or examines diagnostic signals that require interpretation against the underlying evidence. Reviewers can execute the scripts listed below and compare their results with the saved outputs.
 
-**Suggested reading order**: Begin with [Case 4](#case-4-early-stage-investment--dynamics-tension) for the full theory interrogation cycle, then examine Cases 1, 2, 3, and 5 to see how different diagnostic signals are qualified, remain provisional, or dissolve under further examination.
+**Suggested reading order**: Begin with [Case 4](#case-4-early-stage-investment--dynamics-tension) to examine the documented six-step theory interrogation cycle, then explore Cases 1, 2, 3, and 5 to see how different diagnostic signals are qualified, remain provisional, or dissolve under further examination. Cases 1–3 support selected computational reruns, whereas Cases 4–5 primarily support verification of transformed indicators and analytical records.
 
 | Case | Topic | Epistemic function (signal) | Script | Mode |
 |------|-------|-----------------------------|--------|------|
