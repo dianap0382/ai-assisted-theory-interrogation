@@ -103,7 +103,7 @@ python case1/scripts/run_semantic_case1.py
 python case3/scripts/run_semantic_case3.py
 ```
 
-> [DIANA: Please confirm that all five core scripts and both optional semantic scripts execute correctly when invoked from the repository root, exactly as shown in the README: All five core scripts were successfully executed from the repository root using Python 3.13.5. The optional sentence-embedding scripts for Cases 1 and 3 have not been verified in this environment; they require additional dependencies and pretrained model downloads.]
+All five core scripts are executed from the repository root using Python 3.13.5. The optional sentence-embedding scripts for Cases 1 and 3 have not been verified in this environment; they require additional dependencies and pretrained model downloads.
 
 The core lexical analyses and indicator checks do not require pretrained models. The optional semantic analyses download the specified sentence-transformer models on first use.
 
