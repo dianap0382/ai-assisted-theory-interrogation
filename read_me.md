@@ -180,7 +180,7 @@ The five cases illustrate how computational representations can support the four
 
 **Examines:** whether established theoretical categories adequately distinguish dimensions of corporate venturing unit autonomy.
 
-**Run:** [`case2/scripts/run_case2.py`](case2/scripts/run_case2.py) to reproduce the candidate-row provenance checks, dictionary-sensitivity analysis, and lexical comparisons.
+**Run:** [`case2-differentiation-decomposition/scripts/run_case2.py`](case2-differentiation-decomposition/scripts/run_case2.py) to reproduce the candidate-row provenance checks, dictionary-sensitivity analysis, and lexical comparisons.
 
 **Verify:** The `run_case2.py` script regenerates `cluster_provenance.csv`, `kwic_split_dictionary_flags.csv`, `kwic_sensitivity_summary.csv`, `tfidf_candidate_row_neighbors.csv`, and `test_report.json` in `case2-differentiation-decomposition/outputs/`. The regenerated files matched the saved reference outputs exactly under the documented Python environment. The analysis also checks the uniqueness of the 30 candidate-row identifiers and evaluates 264 keyword-in-context records, with 80% of lexical nearest neighbours belonging to the same saved cluster. Optional semantic comparisons are provided separately and are not included in the verified reproduction checks.
 
@@ -192,7 +192,7 @@ The five cases illustrate how computational representations can support the four
 
 **Examines:** whether empirical practices suggest connections between theoretical constructs that are ordinarily treated separately.
 
-**Run:** [`case3/scripts/run_case3.py`](case3/scripts/run_case3.py) for dictionary screening and candidate similarity analysis. Optionally run [`case3/scripts/run_semantic_case3.py`](case3/scripts/run_semantic_case3.py) for sentence-embedding comparisons.
+**Run:** [`case3-differentiation-recombination/scripts/run_case3.py`](case3-differentiation-recombination/scripts/run_case3.py) for dictionary screening and candidate similarity analysis. Optionally run [`case3-differentiation-recombination/scripts/run_semantic_case3.py`](case3-differentiation-recombination/scripts/run_semantic_case3.py) for sentence-embedding comparisons.
 
 **Verify:** The `run_case3.py` script regenerates `dictionary_sensitivity.csv`, `tfidf_passage_neighbors.csv`, and `context_window_screen.csv` in `case3-differentiation-recombination/outputs/`. These files matched the saved reference outputs exactly under the documented Python environment. Other saved outputs are supporting analytical records and are not independently regenerated. The optional `run_semantic_case3.py` script generates `sentence_embedding_results.csv`, but this analysis is not included in the verified reproduction checks.
 
@@ -202,7 +202,7 @@ The five cases illustrate how computational representations can support the four
 
 **Examines:** why a corporate venturing unit with formal authority over its investment-stage strategy nevertheless abandons early-stage investing. This case illustrates the full six-step theory interrogation cycle.
 
-**Run:** [`case4/scripts/verify_case4.py`](case4/scripts/verify_case4.py) to check the saved pseudonymized indicator tables and case-level distinctions.
+**Run:** [`case4-dynamics-tension/scripts/verify_case4.py`](case4-dynamics-tension/scripts/verify_case4.py) to check the saved pseudonymized indicator tables and case-level distinctions.
 
 **Verify:** The `verify_case4.py` script checks the saved indicators in `data/p8_indicators_anonymized.csv` and `data/case4_selected_indicators.csv`. It verifies the 490 P8 observations, identifies four segments jointly satisfying OIR-L, OIR-S, PIR, and the temporal deviation criterion, and confirms six TI-L flags. The script also checks selected differences between lexical and semantic invocation. Verification is successful when all assertions pass, indicated by a `PASS` message. The script does not regenerate or modify the saved data.
 
@@ -214,7 +214,7 @@ The five cases illustrate how computational representations can support the four
 
 **Examines:** whether an apparent mismatch between established theory and empirical practice indicates a theoretical limit.
 
-**Run:** [`case5/scripts/verify_case5.py`](case5/scripts/verify_case5.py) to check the saved indicator data and threshold sensitivity.
+**Run:** [`case5-limits-nonfit/scripts/verify_case5.py`](case5-limits-nonfit/scripts/verify_case5.py) to check the saved indicator data and threshold sensitivity.
 
 **Verify:** The `verify_case5.py` script checks the saved indicators in `data/case5_focal_numeric.csv`, `data/p7_screening_numeric.csv`, `outputs/screening_summary.json`, and `outputs/threshold_sensitivity.csv`. It verifies the focal observation and 70 P7 screening records, including the expected indicator pattern (OIR-L = False, OIR-S = False, PIR = True, TI-L = False), procedural deviation cue, and aggregate indicator counts. It also checks saved similarity scores within a numerical tolerance of `1e-10` and classifications across four cutoff scenarios. Verification is successful when all assertions pass, indicated by a `PASS` message. The script does not regenerate or modify the saved outputs.
 
