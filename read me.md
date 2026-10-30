@@ -24,7 +24,7 @@ The repository demonstrates the architecture through five candidate cases in cor
 
 - Reproduction of specified case-level computational analyses.
 - Verification of selected indicators.
-- Inspection of available supporting analytical records.
+- Inspection of the saved outputs and configuration of each case (the six-step case records are kept in restricted research storage).
 
 **It does not support:**
 
@@ -107,7 +107,7 @@ python case3/scripts/run_semantic_case3.py
 
 The core lexical analyses and indicator checks do not require pretrained models. The optional semantic analyses download the specified sentence-transformer models on first use.
 
-Generated results are saved in each case’s `outputs/` directory. The case-specific instructions in [The five cases](#the-five-cases) identify which results can be reproduced and how to compare them with the saved outputs.
+Generated results are saved in each case’s `outputs/` directory. Running a script overwrites the saved files in outputs/; to compare regenerated results with the saved ones, work on a copy or compare against the committed versions. The case-specific instructions in [The five cases](#the-five-cases) identify which results can be reproduced and how to compare them with the saved outputs.
 
 
 ## Analytical framework
@@ -259,7 +259,7 @@ The repository contains extracted text passages, transformed indicators, and int
 
 ## Further documentation, citation, and license
 
-Detailed computational descriptions and decisions are summarized in [`TECHNICAL_DOCUMENTATION.md`](TECHNICAL_DOCUMENTATION.md), which records the available analytical procedures, evidence, and researcher adjudication, and identifies limitations in what can be independently reproduced.
+Detailed computational descriptions and decisions are summarized in [`technical appendix.pdf`](technica%20appendix.pdf), which records the available analytical procedures, evidence, and researcher adjudication, and identifies limitations in what can be independently reproduced.
 
 **Citation:** [TODO: add once the journal’s anonymous review requirements allow. A `CITATION.cff` file names authors, so add it only when that is permitted.]
 
