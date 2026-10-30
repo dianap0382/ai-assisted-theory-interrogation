@@ -59,10 +59,10 @@ Case 1 is shown as an example. `case2-differentiation-decomposition/` to `case5-
 │   └── scripts/                             # comparisons that generate diagnostic signals
 │       ├── run_case1.py                     # TF-IDF comparison of theoretical anchors and literature-derived passages
 │       └── run_semantic_case1.py            # optional sentence-embedding comparison (downloads models on first use)
-├── case2-differentiation-decomposition/   # Case 2: Autonomy | Differentiation (decomposition)
-├── case3-differentiation-recombination/   # Case 3: Partner integration | Differentiation (recombination)
-├── case4-dynamics-tension/                # Case 4: Early-stage investment | Dynamics (tension)
-├── case5-limits-nonfit/                   # Case 5: Fast-track governance | Limits (candidate non-fit)
+├── case2-differentiation-decomposition/     # Case 2: Autonomy | Differentiation (decomposition)
+├── case3-differentiation-recombination/     # Case 3: Partner integration | Differentiation (recombination)
+├── case4-dynamics-tension/                  # Case 4: Early-stage investment | Dynamics (tension)
+├── case5-limits-nonfit/                     # Case 5: Fast-track governance | Limits (candidate non-fit)
 ├── .gitignore                               # files excluded from version control
 ├── README.md                                # overview, setup, and reproducibility notes
 ├── TECHNICAL_DOCUMENTATION.md               # analytical procedures, evidence, and researcher adjudication
