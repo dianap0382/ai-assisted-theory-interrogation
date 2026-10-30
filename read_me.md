@@ -201,9 +201,7 @@ The five cases illustrate how computational representations can support the four
 
 **Run:** [`case4/scripts/verify_case4.py`](case4/scripts/verify_case4.py) to check the saved pseudonymized indicator tables and case-level distinctions.
 
-**Verify:** Examine the script’s reported checks against the saved indicators.
-
-> [DIANA: Identify the exact input and output files involved, the indicators and distinctions checked, and the expected results or pass/fail criteria. Clarify whether the script regenerates any outputs or only verifies existing data: verify_case4.py` reads `data/p8_indicators_anonymized.csv` and `data/case4_selected_indicators.csv` without changing them. It asserts that the P8 table contains 490 rows, exactly four specified segments satisfy OIR-L, OIR-S, PIR, and the temporal cue simultaneously, and six segments have TI-L flags. It also verifies selected distinctions between lexical and semantic invocation. Successful execution prints `PASS`; any failed assertion stops the script with an error. No outputs are regenerated.]
+**Verify:** The `verify_case4.py` script checks the saved indicators in `data/p8_indicators_anonymized.csv` and `data/case4_selected_indicators.csv`. It verifies the 490 P8 observations, identifies four segments jointly satisfying OIR-L, OIR-S, PIR, and the temporal deviation criterion, and confirms six TI-L flags. The script also checks selected differences between lexical and semantic invocation. Verification is successful when all assertions pass, indicated by a `PASS` message. The script does not regenerate or modify the saved data.
 
 **Not reproduced:** These checks support the computational component of the tension assessment. They do not independently reproduce the underlying interview interpretation or the theoretical elaboration concerning formal decision authority and buffering from the parent firm’s expectation horizon.
 
@@ -215,9 +213,7 @@ The five cases illustrate how computational representations can support the four
 
 **Run:** [`case5/scripts/verify_case5.py`](case5/scripts/verify_case5.py) to check the saved indicator data and threshold sensitivity.
 
-**Verify:** Examine the reported indicator and sensitivity checks against the saved results.
-
-> [DIANA: Identify the exact input and output files involved, the thresholds examined, and the expected results or pass/fail criteria. Clarify whether the script regenerates any outputs or only verifies existing data: `verify_case5.py` reads `data/case5_focal_numeric.csv`, `data/p7_screening_numeric.csv`, `outputs/screening_summary.json`, and `outputs/threshold_sensitivity.csv`. It verifies one focal row and 70 P7 screening rows; the focal pattern OIR-L=False, OIR-S=False, PIR=True, TI-L=False; the procedural cue; the saved similarity values within 1e-10; the aggregate P7 flag totals; and the lexical and semantic classifications under four saved cutoff scenarios. Successful execution prints `PASS`; failed assertions stop execution. No outputs are regenerated.]
+**Verify:** The `verify_case5.py` script checks the saved indicators in `data/case5_focal_numeric.csv`, `data/p7_screening_numeric.csv`, `outputs/screening_summary.json`, and `outputs/threshold_sensitivity.csv`. It verifies the focal observation and 70 P7 screening records, including the expected indicator pattern (OIR-L = False, OIR-S = False, PIR = True, TI-L = False), procedural deviation cue, and aggregate indicator counts. It also checks saved similarity scores within a numerical tolerance of `1e-10` and classifications across four cutoff scenarios. Verification is successful when all assertions pass, indicated by a `PASS` message. The script does not regenerate or modify the saved outputs.
 
 **Not reproduced:** The computational checks do not independently establish whether the fast-track procedure was enacted.
 
@@ -230,9 +226,9 @@ The five cases illustrate how computational representations can support the four
 
 Successful computational reproduction establishes consistency of the reported indicators and comparisons. It does not, by itself, establish the validity of a theoretical interpretation, and it does not independently validate or reproduce researcher adjudication.
 
-For each case, successful verification means that regenerated outputs agree with saved results according to documented comparison criteria, or that verification scripts confirm the specified indicators and analytical checks.
+For each case, successful verification means that regenerated outputs agree with the saved reference results or that the verification scripts confirm the specified indicators and analytical checks. 
 
-> [DIANA: Confirm the applicable numerical tolerances, any requirements for model versions or random seeds, and whether successful execution alone is sufficient for Cases 4 and 5 or specific assertions must pass. The sentence above holds only if the verification scripts actually implement these checks: All core scripts were verified using Python 3.13.5 with the pinned root dependencies. Regenerated outputs for Cases 1–3 matched the committed files exactly in this environment. On other compatible systems, numerical comparisons should use a tolerance of 1e-6 for floating-point columns while requiring exact agreement for identifiers, categorical values, Boolean flags, and row counts. This tolerance is a recommended cross-environment comparison rule, not an independently tested portability guarantee. Cases 4–5 use explicit assertions, including a 1e-10 tolerance for Case 5's saved similarity scores. Optional embedding analyses and their model-version sensitivity have not been verified.]
+The five core scripts were tested using Python 3.13.5 with the dependencies pinned in the root `requirements.txt`. Regenerated outputs for Cases 1–3 matched the saved results exactly in this environment. For cross-environment comparisons, a numerical tolerance of `1e-6` is recommended for floating-point values, with exact agreement required for identifiers, categorical values, Boolean flags, and row counts. Cases 4 and 5 use explicit assertions to verify the saved indicators, including a tolerance of `1e-10` for Case 5's similarity scores. The optional sentence-embedding analyses are not included in these verification results.
 
 ### Three categories of evidence
 
