@@ -72,7 +72,7 @@ Case 1 is shown as an example. `case2-differentiation-decomposition/` to `case5-
 
 The root `requirements.txt` is the canonical environment specification for all five core case analyses. The Case 1 environment file refers to this root specification. Reviewers should install dependencies using `python -m pip install -r requirements.txt` from the repository root.
 
-`semantic_summary_by_model.csv`, `semantic_agreement_table.csv`, and `semantic_interpretation.md` are supporting analytical records. The optional `run_semantic_case1.py` script regenerates only `sentence_embedding_results.csv`.]
+`semantic_summary_by_model.csv`, `semantic_agreement_table.csv`, and `semantic_interpretation.md` are supporting analytical records. The optional `run_semantic_case1.py` script regenerates only `sentence_embedding_results.csv`.
 
 
 ## Getting started
@@ -110,7 +110,7 @@ The five core case-level scripts were successfully executed and verified using P
 
 The core lexical analyses and indicator checks do not require pretrained models. The optional semantic analyses download the specified sentence-transformer models on first use.
 
-Generated results are saved in each case’s `outputs/` directory. Running a script overwrites the saved files in outputs/; to compare regenerated results with the saved ones, work on a copy or compare against the committed versions. The case-specific instructions in [The five cases](#the-five-cases) identify which results can be reproduced and how to compare them with the saved outputs.
+Generated results are saved in each case’s `outputs/` directory. The case-specific instructions in [The five cases](#the-five-cases) identify which results can be reproduced and how to compare them with the saved outputs.
 
 
 ## Analytical framework
@@ -158,17 +158,17 @@ The five cases illustrate how computational representations can support the four
 
 | Case | Topic | Epistemic function (signal) | Script | Mode |
 |------|-------|-----------------------------|--------|------|
-| 1 | Incentives | Recognition (preservation) | [`run_case1.py`](case1/scripts/run_case1.py); optional [`run_semantic_case1.py`](case1/scripts/run_semantic_case1.py) | Regenerates results |
-| 2 | Autonomy | Differentiation (decomposition) | [`run_case2.py`](case2/scripts/run_case2.py) | Regenerates results |
-| 3 | Partner integration | Differentiation (recombination) | [`run_case3.py`](case3/scripts/run_case3.py); optional [`run_semantic_case3.py`](case3/scripts/run_semantic_case3.py) | Regenerates results |
-| 4 | Early-stage investment | Dynamics (tension) | [`verify_case4.py`](case4/scripts/verify_case4.py) | Verifies saved indicators |
-| 5 | Fast-track governance | Limits (candidate non-fit) | [`verify_case5.py`](case5/scripts/verify_case5.py) | Verifies saved indicators |
+| 1 | Incentives | Recognition (preservation) | [`run_case1.py`](case1-recognition-preservation/scripts/run_case1.py); optional [`run_semantic_case1.py`](case1-recognition-preservation/scripts/run_semantic_case1.py) | Regenerates results |
+| 2 | Autonomy | Differentiation (decomposition) | [`run_case2.py`](case2-differentiation-decomposition/scripts/run_case2.py) | Regenerates results |
+| 3 | Partner integration | Differentiation (recombination) | [`run_case3.py`](case3-differentiation-recombination/scripts/run_case3.py); optional [`run_semantic_case3.py`](case3-differentiation-recombination/scripts/run_semantic_case3.py) | Regenerates results |
+| 4 | Early-stage investment | Dynamics (tension) | [`verify_case4.py`](case4-dynamics-tension/scripts/verify_case4.py) | Verifies saved indicators |
+| 5 | Fast-track governance | Limits (candidate non-fit) | [`verify_case5.py`](case5-limits-nonfit/scripts/verify_case5.py) | Verifies saved indicators |
 
 ### Case 1: Incentives | Recognition (preservation)
 
 **Examines:** whether incentive-related practices in corporate venturing are recognized by existing organizational design constructs.
 
-**Run:** [`case1/scripts/run_case1.py`](case1/scripts/run_case1.py) for TF-IDF comparisons of theoretical anchors and literature-derived passages; it regenerates [`case1/outputs/tfidf_similarity.csv`](case1/outputs/tfidf_similarity.csv). Optionally run [`case1/scripts/run_semantic_case1.py`](case1/scripts/run_semantic_case1.py) for sentence-embedding comparisons; it regenerates [`case1/outputs/sentence_embedding_results.csv`](case1/outputs/sentence_embedding_results.csv).
+**Run:** [`case1-recognition-preservation/scripts/run_case1.py`](case1-recognition-preservation/scripts/run_case1.py) for TF-IDF comparisons of theoretical anchors and literature-derived passages; it regenerates [`case1-recognition-preservation/outputs/tfidf_similarity.csv`](case1-recognition-preservation/outputs/tfidf_similarity.csv). Optionally run [`case1-recognition-preservation/scripts/run_semantic_case1.py`](case1-recognition-preservation/scripts/run_semantic_case1.py) for sentence-embedding comparisons; it regenerates [`case1-recognition-preservation/outputs/sentence_embedding_results.csv`](case1-recognition-preservation/outputs/sentence_embedding_results.csv).
 
 **Verify:** The `run_case1.py` script generates `case1-recognition-preservation/outputs/tfidf_similarity.csv` for 500 literature-derived passages. The regenerated results were identical to the saved reference outputs under the documented Python environment. The optional `run_semantic_case1.py` script generates `sentence_embedding_results.csv` using pretrained sentence-transformer models. Small numerical differences may arise across model or dependency versions; this optional analysis is not included in the verified reproduction checks.
 
@@ -250,7 +250,7 @@ The repository contains extracted text passages, transformed indicators, and int
 
 ## Further documentation, citation, and license
 
-Detailed computational descriptions and decisions are summarized in [`technical appendix.pdf`](https://github.com/dianap0382/cvc-routine-analysis/blob/main/technical%20appendix.pdf), which records the available analytical procedures, evidence, and researcher adjudication, and identifies limitations in what can be independently reproduced.
+Detailed computational descriptions and decisions are summarized in [`technical appendix.pdf`](https://github.com/dianap0382/ai-assisted-theory-interrogation/blob/main/technical%20appendix.pdf), which records the available analytical procedures, evidence, and researcher adjudication, and identifies limitations in what can be independently reproduced.
 
 **Citation:** [TODO: add once the journal’s anonymous review requirements allow. A `CITATION.cff` file names authors, so add it only when that is permitted.]
 
