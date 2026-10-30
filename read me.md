@@ -259,7 +259,7 @@ The repository contains extracted text passages, transformed indicators, and int
 
 ## Further documentation, citation, and license
 
-Detailed computational descriptions and decisions are summarized in [`technical appendix.pdf`](technica%20appendix.pdf), which records the available analytical procedures, evidence, and researcher adjudication, and identifies limitations in what can be independently reproduced.
+Detailed computational descriptions and decisions are summarized in [`technical appendix.pdf`](https://github.com/dianap0382/cvc-routine-analysis/blob/main/technical%20appendix.pdf), which records the available analytical procedures, evidence, and researcher adjudication, and identifies limitations in what can be independently reproduced.
 
 **Citation:** [TODO: add once the journal’s anonymous review requirements allow. A `CITATION.cff` file names authors, so add it only when that is permitted.]
 
