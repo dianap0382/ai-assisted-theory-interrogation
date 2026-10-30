@@ -36,11 +36,11 @@ See [Reproducibility and verification](#reproducibility-and-verification) for wh
 
 ## Repository layout
 
-Case 1 is shown as an example. `case2/` to `case5/` also contain `scripts/` and `outputs/` directories.
+Case 1 is shown as an example. `case2-differentiation-decomposition/` to `case5-limits-nonfit/` also contain `scripts/` and `outputs/` directories.
 
 ```text
 .                                            # repository root
-├── case1/          # Case 1: Incentives | Recognition (preservation)
+├── case1-recognition-preservation/          # Case 1: Incentives | Recognition (preservation)
 │   ├── config/                              # analysis settings
 │   │   └── case1.json
 │   ├── data/                                # input data used by the scripts
@@ -59,7 +59,10 @@ Case 1 is shown as an example. `case2/` to `case5/` also contain `scripts/` and 
 │   └── scripts/                             # comparisons that generate diagnostic signals
 │       ├── run_case1.py                     # TF-IDF comparison of theoretical anchors and literature-derived passages
 │       └── run_semantic_case1.py            # optional sentence-embedding comparison (downloads models on first use)
-├── case2/ … case5/                          # Cases 2–5 (layout to be confirmed)
+├── case2-differentiation-decomposition/   # Case 2: Autonomy | Differentiation (decomposition)
+├── case3-differentiation-recombination/   # Case 3: Partner integration | Differentiation (recombination)
+├── case4-dynamics-tension/                # Case 4: Early-stage investment | Dynamics (tension)
+├── case5-limits-nonfit/                   # Case 5: Fast-track governance | Limits (candidate non-fit)
 ├── .gitignore                               # files excluded from version control
 ├── README.md                                # overview, setup, and reproducibility notes
 ├── TECHNICAL_DOCUMENTATION.md               # analytical procedures, evidence, and researcher adjudication
@@ -92,11 +95,11 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 
 # Core case-level analyses
-python case1/scripts/run_case1.py
-python case2/scripts/run_case2.py
-python case3/scripts/run_case3.py
-python case4/scripts/verify_case4.py
-python case5/scripts/verify_case5.py
+python case1-recognition-preservation/scripts/run_case1.py
+python case2-differentiation-decomposition/scripts/run_case2.py
+python case3-differentiation-recombination/scripts/run_case3.py
+python case4-dynamics-tension/scripts/verify_case4.py
+python case5-limits-nonfit/scripts/verify_case5.py
 
 # Optional semantic embedding analyses
 python case1/scripts/run_semantic_case1.py
