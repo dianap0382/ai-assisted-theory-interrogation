@@ -65,7 +65,7 @@ Case 1 is shown as an example. `case2-differentiation-decomposition/` to `case5-
 ├── case5-limits-nonfit/                     # Case 5: Fast-track governance | Limits (candidate non-fit)
 ├── .gitignore                               # files excluded from version control
 ├── README.md                                # overview, setup, and reproducibility notes
-├── TECHNICAL_DOCUMENTATION.md               # analytical procedures, evidence, and researcher adjudication
+├── technical_appendix.pdf                   # analytical procedures, evidence, and researcher adjudication
 └── requirements.txt                         # Python dependencies used in Getting started
 ```
 
